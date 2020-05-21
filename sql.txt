@@ -1,0 +1,3 @@
+ALTER TABLE lokers
+ADD CONSTRAINT id_loker
+FOREIGN KEY (id) REFERENCES users(id);
